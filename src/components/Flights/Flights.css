@@ -1,0 +1,48 @@
+.flights-container {
+  padding: 20px;
+}
+
+.search-inputs {
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+.flights-list table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.flights-list th,
+.flights-list td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.header-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logout-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.logout-button:hover {
+  background-color: #c82333;
+}
+
+.all-flights-section {
+  margin-top: 40px;
+  border-top: 2px solid #fd9904;
+  padding-top: 20px;
+}

@@ -1,0 +1,35 @@
+.search-inputs {
+  display: flex;
+  gap: 20px;
+  align-items: flex-end;
+  margin-bottom: 30px;
+}
+
+.search-inputs .custom-button {
+  width: 20%;
+  margin-left: 30px;
+}
+
+.search-select {
+  min-width: 200px;
+}
+
+.search-select select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #fd9904;
+  border-radius: 4px;
+  font-size: 14px;
+  background-color: white;
+}
+
+.search-select select:focus {
+  outline: none;
+  border-color: #4d6668;
+}
+
+.search-select label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
