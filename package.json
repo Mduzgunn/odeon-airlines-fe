@@ -1,57 +1,41 @@
-# Odeon Airlines Frontend Documentation
-
-## Overview
-Odeon Airlines frontend uygulaması, React kullanılarak geliştirilmiş bir uçuş yönetim sistemidir. Kullanıcılar uçuş arama, rezervasyon ve yönetim işlemlerini gerçekleştirebilir.
-Case detayları için 
-## Tech Stack
-- React 19.0.0
-- React Router Dom 6.28.2
-- Axios 1.7.9
-- SweetAlert2
-- CSS3
-
-## Features
-### User Authentication
-- Kullanıcı Girişi
-- Kullanıcı Kaydı
-- JWT Token Yönetimi
-
-### Flight Management
-- Uçuş Arama
-  - Kalkış Şehri
-  - Varış Şehri
-  - Tarih Seçimi
-- Uçuş Listeleme
-- Uçuş Ekleme (Admin)
-
-## Component Structure
-### Base Components
-- **Button**: Özelleştirilmiş buton komponenti
-- **Select**: Form select komponenti
-- **DatePicker**: Tarih seçici komponenti
-- **Input**: Form input komponenti
-
-### Feature Components
-- **Login**: Kullanıcı giriş formu
-- **Register**: Kullanıcı kayıt formu
-- **FlightSearch**: Uçuş arama formu
-- **FlightList**: Uçuş listeleme komponenti
-- **AddFlight**: Uçuş ekleme formu (Admin)
-
-## Form Validation
-- Tüm form alanları için zorunlu alan kontrolü
-- Tarih formatı kontrolü
-- Şehir seçimi kontrolü
-
-## State Management
-- Local state yönetimi için React Hooks
-- Authentication state için local storage
-
-## API Integration
-- Backend ile iletişim için Axios kullanılmaktadır.
-
-## Error Handling
-- Form validasyon hataları
-- API hata mesajları
-- Kullanıcı dostu hata bildirimleri (SweetAlert2)
-
+{
+    "name": "odeon-airlines-fe",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@testing-library/jest-dom": "^5.17.0",
+        "@testing-library/react": "^13.4.0",
+        "@testing-library/user-event": "^13.5.0",
+        "axios": "^1.7.9",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.28.2",
+        "react-scripts": "5.0.1",
+        "sweetalert2": "^11.10.5",
+        "web-vitals": "^2.1.4"
+    },
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}
