@@ -60,6 +60,7 @@ const Login = () => {
           label="Kullanıcı Adı"
           value={formData.username}
           onChange={handleChange}
+          inputType={'text'}
           required
         />
         <Input
